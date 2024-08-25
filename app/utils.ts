@@ -27,7 +27,7 @@ export function appURL() {
 
 export function vercelURL() {
   return process.env.VERCEL_URL
-    ? `https://{process.env.VERCEL_URL}`
+    ? `https://claim-bnb-v2.vercel.app`
     : undefined;
 }
 

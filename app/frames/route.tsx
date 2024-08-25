@@ -156,7 +156,7 @@ const frameHandler = frames(async (ctx) => {
   );
 
   // Change the url here
-  const shareUrl = `https://warpcast.com/~/compose?text=${shareText}&embeds[]=https://claimbnb-rewards.vercel.app/frames${
+  const shareUrl = `https://warpcast.com/~/compose?text=${shareText}&embeds[]=https://claim-bnb-v2.vercel.app/frames${
     fid ? `?userfid=${fid}` : ""
   }`;
 
